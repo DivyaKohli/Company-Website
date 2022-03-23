@@ -1,0 +1,85 @@
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+            margin: 0;
+        }
+        header, footer{
+            background: white url("water-flow.gif") scroll no-repeat bottom; 
+            background-size: cover;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /*----------Main Navigation----------*/
+        nav{
+            background-color: #090435;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color: rgb(36, 31, 31);
+        }
+        nav ul li a.active{
+            background-color: rgb(15, 14, 14);
+        }
+
+        /*----------Sidebar----------*/
+        aside{
+            float: left;
+            width: 200px;
+            text-align: center;
+            height: 450px;
+            overflow-y: scroll;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 15px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: rgb(36, 31, 31);
+            color: white;
+        }
+
+        /*----------Main Section----------*/
+        section{
+            margin-left: 200px;
+            border-left: 2px solid darkblue;
+            padding: 10px;
+        }
+        details{
+            background-color: #02033f;
+            margin: 5px;
+            padding: 10px;
+            color: white;
+            border-radius: 20px;
+        }
+        article{
+            background-color: #505074;
+            color: black;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        summary{
+            outline: none;
+        }
